@@ -1,0 +1,121 @@
+.brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -18px;
+  display: block;
+  font-size: 24px;
+}
+
+.navbar-brand {
+  color: rgba(0, 0, 0, 0.55) !important;
+  font-size: 24px;
+}
+.hero {
+  background: url(../img/hero_bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.my-card {
+  box-shadow: 4px 6px 7px -5px rgba(0, 0, 0, 0.25);
+}
+
+.kaos-anak {
+  background: url(../img/kategori_anak.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.kaos-dewasa {
+  background: url(../img/kategori_dewasa.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.kaos-wanita {
+  background: url(../img/kategori_wanita.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.kaos-pria {
+  background: url(../img/kategori_pria.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.category-title {
+  margin-top: 100px !important;
+}
+
+.produk {
+  background: #eeeeee;
+}
+
+.product-card {
+  background: #f9f9f9;
+  box-shadow: 4px 6px 7px -5px rgba(0, 0, 0, 0.25);
+}
+
+.size-list {
+  border: none;
+}
+
+.product-image {
+  position: relative;
+}
+
+.icon-heart {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 24px;
+  color: #000; /* Atur warna ikon sesuai kebutuhan */
+}
+
+/* Efek hover pada ikon jika diperlukan */
+.icon-heart:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.testi-card {
+  box-shadow: 0px 4px 15px -1px rgba(0, 0, 0, 0.25);
+}
+
+.slick-next,
+.slick-prev {
+  filter: invert(10%);
+}
+
+.footer {
+  margin-top: -80px;
+  background: #202020;
+}
+.footer-content {
+  margin-top: 80px;
+}
+
+.subcribe-content {
+  background: white;
+  z-index: 999;
+}
+.copyright {
+  background-color: #2f2f2f;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-brand {
+    display: block !important;
+  }
+
+  .brand {
+    display: none;
+  }
+}
